@@ -1,0 +1,7 @@
+@include('frontend/master/layout/head')
+@include('frontend/master/layout/header')
+@include('frontend/master/layout/slide')
+@yield('main')
+@include('frontend/master/layout/subsribe')
+@include('frontend/master/layout/footer')
+@yield('js')
